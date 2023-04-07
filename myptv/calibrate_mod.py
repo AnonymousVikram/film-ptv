@@ -193,7 +193,7 @@ class calibrate(object):
                 else:
                     convergenceTracker.append(abs((err_i - err_ip1)/err_i))
                     err_i = err_ip1
-                    Xi = Xip1
+        p            Xi = Xip1
                 
                 # check for converence of the error
                 if ee>0:
